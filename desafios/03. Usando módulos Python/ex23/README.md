@@ -2,6 +2,8 @@
 
 - Ler um número de 0 a 9999 e mostre cada um dos dígitos separados
 
-[Início](https://github.com/NandesLima/desafios-python)
+[Usando Módulos Python](https://github.com/NandesLima/python-codigos/tree/master/desafios/03.%20Usando%20m%C3%B3dulos%20Python)
 
-[Voltar](https://github.com/NandesLima/desafios-python/tree/main/03.%20Usando%20m%C3%B3dulos%20Python)
+[Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
+
+[Início](https://github.com/NandesLima/python-codigos)

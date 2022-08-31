@@ -3,6 +3,8 @@
 - Verificar a â de uma viagem em km e calcular o preço da cobrança de R$ 0,50 por km para viagens de até 200km
 - Cobrar R$ 0,45 por km para viagens acima
 
-[Início](https://github.com/NandesLima/desafios-python)
+[Condições de Decisão](https://github.com/NandesLima/python-codigos/tree/master/desafios/04.%20Condi%C3%A7%C3%B5es%20de%20decis%C3%A3o)
 
-[Voltar](https://github.com/NandesLima/desafios-python/tree/main/04.%20Condi%C3%A7%C3%B5es%20de%20decis%C3%A3o)
+[Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
+
+[Início](https://github.com/NandesLima/python-codigos)

@@ -2,6 +2,8 @@
 
 - Abrir e reproduzir o áudio de um arquivo MP3
 
-[Início](https://github.com/NandesLima/desafios-python)
+[Usando Módulos Python](https://github.com/NandesLima/python-codigos/tree/master/desafios/03.%20Usando%20m%C3%B3dulos%20Python)
 
-[Voltar](https://github.com/NandesLima/desafios-python/tree/main/03.%20Usando%20m%C3%B3dulos%20Python)
+[Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
+
+[Início](https://github.com/NandesLima/python-codigos)
