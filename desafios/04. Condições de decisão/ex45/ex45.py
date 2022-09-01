@@ -16,7 +16,6 @@ T - Tesoura :scissors:
 
 jokenpo = input('Escolha uma das opções: ').strip().upper()
 
-
 print('\nJO',end='')
 sleep(0.7)
 print('KEN',end='')
