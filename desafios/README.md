@@ -14,7 +14,7 @@ Lista de conteúdos
 
 5. [Repetições com FOR](https://github.com/NandesLima/python-codigos/tree/master/desafios/05.%20Repeti%C3%A7%C3%B5es%20com%20FOR)
 
-6. Repetições com WHILE
+6. [Repetições com WHILE](https://github.com/NandesLima/python-codigos/tree/master/desafios/06.%20Repeti%C3%A7%C3%B5es%20com%20WHILE)
 
 7. Tuplas
 
