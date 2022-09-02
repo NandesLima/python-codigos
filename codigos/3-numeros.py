@@ -35,5 +35,4 @@ print(math.hypot(3,4)) # Retorna a hipotenusa dos dois catetos colocados
 n = math.radians(30) # Transforma o ângulo de graus para radiano
 print(math.sin(n)) # Retorna o seno de um número que esteja em radiano
 print(math.cos(n)) # Retorna o cosseno de um número que esteja em radiano
-print(math.tan(n)) # Retorna a tangente de um número que esteja em radiano
-
+print(math.tan(n)) # Retorna a tangente de um número que esteja em radian
