@@ -5,7 +5,7 @@
 A) Os 5 primeiros colocados
 B) Os 4 últimos colocados
 C) Uma lista dos times em ordem alfabética
-D) Posição do time do Chapecoense
+D) Posição do time do Ceará
 
 [Tuplas]()
 
