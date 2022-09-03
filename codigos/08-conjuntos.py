@@ -1,6 +1,9 @@
 tupla = (6,7,8,9,6,7,6,8,6,9)
 
-# Conjuntos (sets) são objetos em python que podem armazenar diferentes tipos de objetos, são mutáveis, porém não aceitam elementos duplicados, seus elementos não são mutáveis e não são ordenados, ou seja, não possuem um índice associado.
+# Conjuntos (sets) são objetos em python que podem armazenar diferentes tipos de objetos, 
+# são mutáveis, porém não aceitam elementos duplicados, seus elementos não são mutáveis 
+# e não são ordenados, ou seja, não possuem um índice associado.
+
 conjunto1 = {1,2,3,4,5,6} # Tipo set
 conjunto2 = set() # Cria um conjunto ou converte um objeto em um conjunto
 conjunto3 = set(tupla)
