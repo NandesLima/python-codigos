@@ -16,7 +16,7 @@ Lista de conteúdos
 
 6. [Repetições com WHILE](https://github.com/NandesLima/python-codigos/tree/master/desafios/06.%20Repeti%C3%A7%C3%B5es%20com%20WHILE)
 
-7. Tuplas
+7. [Tuplas](https://github.com/NandesLima/python-codigos/tree/master/desafios/07.%20Tuplas)
 
 8. Listas
 
