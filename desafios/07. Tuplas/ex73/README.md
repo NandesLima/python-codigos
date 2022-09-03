@@ -7,7 +7,7 @@ B) Os 4 últimos colocados
 C) Uma lista dos times em ordem alfabética
 D) Posição do time do Ceará
 
-[Tuplas]()
+[Tuplas](https://github.com/NandesLima/python-codigos/tree/master/desafios/07.%20Tuplas/ex73)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

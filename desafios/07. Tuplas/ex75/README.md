@@ -5,7 +5,7 @@
 - Em que posição aparece o primeiro valor 3.
 - Quais foram os números pares.
 
-[Tuplas]()
+[Tuplas](https://github.com/NandesLima/python-codigos/tree/master/desafios/07.%20Tuplas/ex75)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

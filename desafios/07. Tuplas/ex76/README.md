@@ -3,7 +3,7 @@
 - Criar um programa com uma tupla única com nomes de produtos e respectivos preços na sequência.
 - Mostrar uma listagem de preços com os dados organizados de forma tabular.
 
-[Tuplas]()
+[Tuplas](https://github.com/NandesLima/python-codigos/tree/master/desafios/07.%20Tuplas/ex76)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 
