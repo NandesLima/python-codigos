@@ -1,6 +1,3 @@
-from audioop import reverse
-
-
 tupla = (6,7,8,9,6,7,6,8,6,9)
 
 # Listas são objetos em python que podem armazenar diferentes tipos de objetos, podenso ser modificadas, e aceita repetição dos elementos.
