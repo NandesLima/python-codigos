@@ -42,7 +42,8 @@ if not n <= -50: # Uso da negação lógica
 if str(n) in '907080':
     print('Testando se está dentro de um conjunto')
 
-print(n if n <= 200 else n+200) # Pode ser utilizado o if e o else numa linha dessa forma
+print(n if n <= 200 else n+200) 
+# Pode ser utilizado o if e o else numa linha dessa forma
 # Antes do if fica o valor retornado se a condição for verdadeira
 # Entre o if e o else fica a condição
 # Depois do else fica o valor retornado se a condição for falsa

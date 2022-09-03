@@ -3,6 +3,7 @@ import math
 
 numeros = [1, 5, 7, 2, 100, -5, 15, 13, -38, 0]
 
+# Funções básicas
 print(abs(-4.38)) # Retorna o valor absoluto de um número
 print(round(4.75)) # Arredonda o valor de um núemro
 print(sum(numeros)) # Soma uma lista de números
@@ -10,6 +11,7 @@ print(min(numeros)) # Retorna o menor valor de uma lista de números
 print(max(numeros)) # Retorna o maior valor de uma lista de números
 print(pow(4,2)) # Funciona como uma exponenciação onde o primeiro número é a base e o segundo é o expoente.
 
+# Operações aritméticas simples
 print(2 + 2) # + --> Usado pra soma
 print(3 - 1) # - --> Usado pra subtração
 print(4 * 2) # * --> Utilizado para mutiplicação
@@ -18,6 +20,7 @@ print(2 ** 3) # ** Utilizado para exponenciação
 print(5 % 2) # % Retorna o resto de uma divisão
 print(10 // 3) # // Retorna o valor inteiro de uma divisão
 
+# Operções aritméticas utilizando a própria variável
 n = 10
 n += 1 # Serve para somar com a própria variável
 n -= 2 # Serve para diminuir com a própria variável
@@ -27,6 +30,16 @@ n **= 2 # Calcula a exponencial da própria variável
 n /= 4 # Calcula a diisão da própria variável
 n %= 2 # Calcula o resto da divisão da própria variável
 
+# Operações booleanas (valor lógico)
+print(1 < 2) # Menor que
+print(3 > 4) # Maior que
+print(5 <= 4) # Menor ou igual
+print(6 >= 6) # Maior ou igual
+print(7 == 8) # Igual a 
+print(9 != 12) # Difeerente de
+print(15 in numeros) # Está contido em
+
+# Operações utilizando a biblioteca math
 print(math.sqrt(9)) # Calcula a raiz quadrada
 print(math.ceil(4.32)) # Arredoda o valor para cima
 print(math.floor(4.78)) # Arredonda o valor para baixo
