@@ -1,7 +1,12 @@
 # Biblioteca voltada para matemática
 import math
 
+flutuante = 4.84999567
+num = 15000000000000
 numeros = [1, 5, 7, 2, 100, -5, 15, 13, -38, 0]
+
+print(f'{flutuante:.2f}') # Controla a quantidade das casas decimais do número flutuante
+print(f'{num:.2e}') # Transforma o número em notação científica
 
 # Funções básicas
 print(abs(-4.38)) # Retorna o valor absoluto de um número
