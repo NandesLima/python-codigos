@@ -5,7 +5,7 @@ a) Mostrar  quantas pessoas foram cadastradas.
 b) Listagem de pessoas mais pesadas.
 c) Listagem de pessoas mais leves.
 
-[Listas]()
+[Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

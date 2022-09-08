@@ -4,7 +4,7 @@
 - Mostrar o boletim contendo a média de cada um.
 - Permitir que o usuário possa ver a nota de cada aluno individualmente.
 
-[Listas]()
+[Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

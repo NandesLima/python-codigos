@@ -18,7 +18,7 @@ Lista de conteúdos
 
 7. [Tuplas](https://github.com/NandesLima/python-codigos/tree/master/desafios/07.%20Tuplas)
 
-8. Listas
+8. [Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 9. Dicionários
 

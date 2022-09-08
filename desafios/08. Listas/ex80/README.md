@@ -4,7 +4,7 @@
 - Já na posição correta de inserção - sem o sort().
 - No final, mostrar a lista ordenada na tela.
 
-[Listas]()
+[Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

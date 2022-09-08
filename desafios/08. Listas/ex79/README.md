@@ -4,7 +4,7 @@
 - Caso já exista na lista, ele não pode ser adicionado.
 - Mostrar todos os valores únicos em ordem crescente.
 
-[Listas]()
+[Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 

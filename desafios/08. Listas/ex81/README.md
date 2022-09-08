@@ -5,7 +5,7 @@ a) Mostrar quantos foram digitados.
 b) Ordenar os valores de forma descrescente.
 c) Mostrar se o valor 5 está na lista.
 
-[Listas]()
+[Listas](https://github.com/NandesLima/python-codigos/tree/master/desafios/08.%20Listas)
 
 [Desafios](https://github.com/NandesLima/python-codigos/tree/master/desafios)
 
