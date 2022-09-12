@@ -49,6 +49,3 @@ print(dicionario4)
 
 for i in dicionario1: # Guarda as chaves na variável
     print(i, dicionario1[i])
-
-for i, e in lista3:
-    print(i, e)
