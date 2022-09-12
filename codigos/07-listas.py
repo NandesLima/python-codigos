@@ -19,8 +19,10 @@ print(lista3[::2]) # Mostra todos os elementos considerando o passo
 print(lista3[::-1]) # Passo reverso
 print(lista3[2::2]) # Mostra todos os elementos a partir da posição inicial indicada considerando o passo
 print(lista3[:8:2]) # Mostra todos os elementos até a posição final indicada considerando o passo
+print(lista3[:]) # Retorna a lista completa
 
 # Métodos e funções
+lista3[0] = 2 # Na posição especificada entre os cochetes troca o valor da lista.
 print(lista3.count(6)) # Método .count(), retorna quantas vezes aparece o elemento, dentro da sequência indicada
 print(lista3.index(6)) # Método .index(), retorna a posição do elemento a partir da primeira ocorrência
 print(lista3.index(6,2)) # Mostra a posição do elemento considerando a partir da posição selecionada
@@ -32,6 +34,7 @@ lista3.append(12) # Adiciona o elemento no final da lista
 lista3.insert(4,11) # Adicionando um valor na lista (segundo número) na posição indicada (primeiro número) desloca os demais valores da lista à direita.
 lista3.extend(tupla) # Adiciona os elementos da sequência entre parênteses, na lista
 lista3.pop(7) # Elimina um elemento da posição indicada, se não for indicado elimina o último
+retorno = lista3.pop(2) #O pop retorna o valor excluído
 lista3.remove(7) # Elimina o elemento indicado na sua primeira ocorrência
 lista3.sort() # Deixa a lista em ordem crescente
 lista3.sort(reverse=True) # Deixa a lista em ordem decrescente

@@ -4,6 +4,8 @@ lista = [6,7,8,9,6,7,6,8,6,9]
 tupla1 = (1,2,3,4,5,6)
 tupla2 = tuple() # Cria uma tupla ou converte um objeto em tupla
 tupla3 = tuple(lista)
+tupla4 = 'Brasil', 'Argentina', 'Chile', 'Peru' # No python uma tupla pode ser declara sem parênteses
+tupla5 = 'Ceará', # Tuplas de um único elemento que não utiliza-se o parênteses deve ser colocado a vírgula.
 
 # Manipulação da tupla
 print(tupla3[4]) # Mostra o elemento da posição indicada
@@ -25,6 +27,10 @@ print(max(tupla3)) # Mostra o maior valor da sequência
 print(sum(tupla3)) # Mostra a soma dos valores da sequência
 print(len(tupla3)) # Mostra a quantidade de itens da sequência
 lista = enumerate(tupla1) # Cria uma lista de tuplas, onde cada tupla vai ter uma posição e um elemento da sequência associado
+
+b, a, c, p = tupla5 # Cada variável recebe um valor da tupla 
+
+print(*tupla5) # Imprime os valores da tupla de forma separada, como se cada valor fosse guardado em uma variável diferente
 
 del tupla2 # Deleta o objeto selecionado
 
