@@ -16,7 +16,7 @@ def soma():
 def soma_2(numero1, numero2): # Utilização de parâmetros dentro da função
     return numero1 + numero2
 
-def soma_3(*numero): # O parâmetro que recebe *, utiliza mais de um valor, ou seja, pode utilizar uma ou mais variáveis do mesmo tipo 
+def soma_3(*numero): # O parâmetro que recebe *, utiliza mais de um valor, ou seja, pode utilizar uma ou mais variáveis do mesmo tipo, os valores são guardados em uma tupla
     soma = 0
     for i in numero:
         soma += i
@@ -27,6 +27,8 @@ def soma_4(*numero2, numero1=0): # O parâmetro quando já recebe um valor, come
         numero1 += i
     return numero1
 
+def print_info (**dicionario): # ** Esse parâmetro cria um dicionário nos valores
+    print(dicionario,  type(dicionario))
 
 # Recursividade
 
@@ -51,6 +53,7 @@ if __name__ == '__main__': # Executa os códigos direto do arquivo onde estão, 
     print(soma_2(12,13))
     print(soma_3(10,9,8,7,6,5,3,2,1))
     print(soma_4(4,5,5,5,6,numero1=12))
+    print_info(nome='Angelo',sobrenome='Bardy',idade=32) # Sempre deve definir o parâmetro que será guardado aqui e o valor associado, o parâmetro é retornado como uma chave e o valor como seu valor associado, tudo dentro de um dicionário
 
 
     # Função anônima - Lambda
