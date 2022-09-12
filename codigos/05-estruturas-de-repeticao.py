@@ -33,3 +33,11 @@ while True:
     n+=1
     if n == 30:
         break # Para a execução de uma estrutura de repetição, serve para o for e para o while
+
+senha = ''
+
+while senha != 'teste123':
+    senha = input('Digite a senha: ')
+    if senha != 'teste123':
+        continue # Quando executado ele desconsidera todo o restante abaixo dele dentro do laço, e volta para o início do loop
+    print('Acesso liberado')
