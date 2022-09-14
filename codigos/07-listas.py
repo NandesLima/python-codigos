@@ -38,6 +38,8 @@ retorno = lista3.pop(2) #O pop retorna o valor excluído
 lista3.remove(7) # Elimina o elemento indicado na sua primeira ocorrência
 lista3.sort() # Deixa a lista em ordem crescente
 lista3.sort(reverse=True) # Deixa a lista em ordem decrescente
+print(sorted(lista4)) # Funciona da mesma forma do método .sort()
+print(sorted(lista4, reverse=True)) # Funciona da mesma forma do método .sort()
 lista3.clear() # Limpa os dados da lista
 
 del lista2 # Deleta o objeto selecionado
@@ -47,5 +49,3 @@ for i, e in lista:
     print(i, e)
 for i in lista4:
     print(i)
-
-print(lista3)
