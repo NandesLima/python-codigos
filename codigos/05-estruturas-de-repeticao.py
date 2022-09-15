@@ -1,5 +1,5 @@
 # Comando range
-lista = range(5) # Cria uma lista de números a parir do 0 até o anterior do indicado.
+lista = range(5) # Cria uma lista (mas o objeto é range) de números a parir do 0 até o anterior do indicado.
 nova_lista = range(1, 6) # Cria uma lista a partir do primeiro número, até um número antes do indicado.
 new_lista = range(1,20,2) # Vai aumentando conforme o terceiro número, funciona como um passo.
 lista_contraria = range(20,0,-1) # O passo é negativo nesse caso
@@ -13,6 +13,8 @@ for i in lista: # O for sempre deve está associado a uma ou mais suquências, a
 
 for i, j in lista2: # Como pra cada elemento da lista, existem dois itens, pode utilizar uma variável para cada item que deseja guardar o valor.
     print(i, j)
+else:               # else utilizado no for executa as linhas a baixo no final da execução do for
+    print('Executa no final do laço For')
 
 lista_for = [i+2 for i in new_lista] 
 # O for pode ser utilizado para criar listas de uma forma mais rápida
@@ -41,3 +43,5 @@ while senha != 'teste123':
     if senha != 'teste123':
         continue # Quando executado ele desconsidera todo o restante abaixo dele dentro do laço, e volta para o início do loop
     print('Acesso liberado')
+else:
+    print('Execulta no final do laço')

@@ -1,3 +1,5 @@
+# Estrutura condicionais permitem o desvio de fluxo de controle
+
 n = 100
 
 if n < 100:
@@ -30,14 +32,6 @@ if not n <= -50: # Uso da negação lógica
 # Se o if for escolhido os demais não serão, caso não seja passa para o próximo.
 # Se um elif for escolhido não executa os demais, caso não seja passa para o próximo.
 # Não é necessário utilizar elif ou else
-
-# Os comparativos matemáticos são utilizados aqui
-# > --> maior que
-# < --> menor que
-# == ---> igual a
-# != ---> diferente de
-# >= ---> Maior ou igual
-# <= ---> menor ou igual
 
 if str(n) in '907080':
     print('Testando se está dentro de um conjunto')
