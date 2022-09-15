@@ -2,6 +2,10 @@ print('Teste') # Imprime na tela o que estiver entre parênteses
 
 n = 'Novo texto'
 m = ' Mais um texto'
+t = '''
+Utilizando três aspas, duplas ou não, pode-se criar strings de 
+múltiplas linhas.
+'''
 
 print(n + m) # O + consegue juntar textos
 print(n , m, 75) # A vírgula consegue juntar textos e números
@@ -21,15 +25,20 @@ print('\033[35;44;4mTeste\033[m') # \033[estilo;cor do texto;cor de fundom --> M
 # Cor de fundo: 40 41 42 43 44 45 46 47 48 49
 
 n = 'Novo texto teste'
+dicionario = {'nome':'Teste', 'idade':22}
+
 print("{:20}".format(n)) # Coloca a quantidade mínima de caracteres igual o valor depois dos :, se for colocado menos caracteres é preenchido com oputro, se não for escolhido um é utilizado o espaço.
+print("Nome {nome} e idade {idade}".format(**dicionario)) # Retorna pelas chaves do dicionário
 print(f'{n:20}') # Funciona da mesma forma que o .format()
 
-print(f'{n:>20}') # Alinha para a direita
+print(f'{n:>20}') # Alinha para a direita0
 print(f'{n:<20}') # Alinha para a esquerda (posição normal)
 print(f'{n:^20}') # Alinha ao centro
 print(f'{n:=<20}') # Define o caractere a ser utilizado e alinha à esquerda
 print(f'{n:~^30}') # Define o caractere a ser utilizado e alinha ao centro
 print(f'{n:+>40}') # Define o caractere a ser utilizado e alinha à direita
+print(n.center(100, '~')) # Funciona da mesma forma da manipulação de alinhamento no centro, o primeiro parâmetro diz a quantidade de caracteres e o segundo troca os espaços por outro caractere
+
 
 m = 4.7586989895269494156
 
@@ -81,7 +90,9 @@ b = n.rsplit() # Separa as palavras pela direita
 
 n = '-'.join(b) # Junta os itens de uma lista numa String, com o caractere indicado antes do ponto
 c = ''.join(b) # Pode ser juntado sem nenhum caractere
+print('.'.join(c))
 
 print(len(c)) # Mostra quantos caracteres tem a String, ou quantos elementos tem uma lista.
+
 
 d = input('Digite algo: ') # Permite que o usuário insira pelo teclado um valor
