@@ -10,8 +10,9 @@ print('=' * 30) # A mutiplicação serve para repetir os caracteres de um texto
 print(f'Teste: {n}') # fprint f antes das aspas faz com que seja possível utilizar variáveis dentro do print.
 print('Teste: {}'.format(n)) # .format() é um método que funciona como o fprint.
 
-print('Teste',end='-') # Paâmetro end muda o último caractere da função print (\n)
+print('Teste',end='-') # Parâmetro end muda o último caractere da função print (\n)
 print('\n')
+print(n, m, sep="-") # Sep muda os separadores que por padrão é o espaço por outro caractere
 
 print('\033[35;44;4mTeste\033[m') # \033[estilo;cor do texto;cor de fundom --> Muda o estilo do texto
 # Base: \033[m

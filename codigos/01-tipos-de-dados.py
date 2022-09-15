@@ -13,3 +13,12 @@ i = set() # Cria um conjunto, ou transforma uma sequência de dados num conjunto
 j = dict() # Cria um dicionário, ou transforma uma sequência de dados num dicionário.
 
 z = type(j) # Retorna o tipo do dado entre parenteses
+
+idade, nome = (23, 'Angelo') # Em Python podem ser declaradas mais de uma variável ao mesmo tempo, separando por vírgula
+CONSTANTE = 'Uma constante em Python é uma convenção, onde o nome que receberá uma atribuição fica todo em maiúsculo'
+
+print(dir()) # Retorna o escopo local em uma lista
+print(dir(100)) # Retorna o escopo do objeto  que está entre parênteses, em uma lista.
+
+print(help()) # Retorna todo o escopo, incluindo métodos, classes e outras informações
+print(help(int))

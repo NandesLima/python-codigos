@@ -17,16 +17,16 @@ print(max(numeros)) # Retorna o maior valor de uma lista de números
 print(pow(4,2)) # Funciona como uma exponenciação onde o primeiro número é a base e o segundo é o expoente.
 
 # Operações aritméticas simples
-print(2 + 2) # + --> Usado pra soma
-print(3 - 1) # - --> Usado pra subtração
-print(4 * 2) # * --> Utilizado para mutiplicação
-print(6 / 3) # / --> Utilizado para divisão
+print(2 + 2) # +  Usado pra soma
+print(3 - 1) # -  Usado pra subtração
+print(4 * 2) # *  Utilizado para mutiplicação
+print(6 / 3) # /  Utilizado para divisão
 print(2 ** 3) # ** Utilizado para exponenciação
 print(5 % 2) # % Retorna o resto de uma divisão
 print(10 // 3) # // Retorna o valor inteiro de uma divisão
 
-# Operções aritméticas utilizando a própria variável
-n = 10
+# Operções de atribuição
+n = 10 # Atribuição simples
 n += 1 # Serve para somar com a própria variável
 n -= 2 # Serve para diminuir com a própria variável
 n *= 3 # Mutiplica com a variável
@@ -35,14 +35,31 @@ n **= 2 # Calcula a exponencial da própria variável
 n /= 4 # Calcula a diisão da própria variável
 n %= 2 # Calcula o resto da divisão da própria variável
 
-# Operações booleanas (valor lógico)
+# Operações booleanas (valor lógico) de comparação
 print(1 < 2) # Menor que
 print(3 > 4) # Maior que
 print(5 <= 4) # Menor ou igual
 print(6 >= 6) # Maior ou igual
 print(7 == 8) # Igual a 
 print(9 != 12) # Difeerente de
-print(15 in numeros) # Está contido em
+
+# Operadores lógicos
+print(1000 >= 200 and 1000 <= 100) # Operador && (e)
+print(1000 >= 200 or 1000 <= 100) # Operador || (ou)
+print(not 1000 >= 200) # Operador de negação 
+
+# Operadores de identidade
+a = 'Python'
+nome = a
+saldo, limite = 200, 200
+
+print(a is nome) # is é o operador de identidade e verifica se dois objetos estão na mesma região de memória
+print(a is not nome)
+print(saldo is limite)
+
+# Operadores de associação
+print(15 in numeros) # Operador in é de associação verifica se algo está dentro de uma sequência
+print(15 not in numeros)
 
 # Operações utilizando a biblioteca math
 print(math.sqrt(9)) # Calcula a raiz quadrada
