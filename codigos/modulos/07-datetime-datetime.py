@@ -1,7 +1,7 @@
 from datetime import datetime # Módulo de manipulação de data e tempo
 
 print(datetime.now()) # Retorna data e hora atual
-print(datetime.now().strftime('%d/%m/%Y %H:%M:%S')) # Formata data e hora como se fosse uma string
+print(datetime.now().strftime('%d/%m/%Y %H:%M:%S')) # Formata data e hora e retorna uma string
 # %H --> hora
 # %M --> minuto
 # %S --> segundo
@@ -9,6 +9,13 @@ print(datetime.now().strftime('%d/%m/%Y %H:%M:%S')) # Formata data e hora como s
 # %m -> mês
 # %y -> ano com 2 dígitos
 # %Y -> ano com 4 dígitos
+
+hoje = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
+print(hoje)
+
+agora = datetime.strptime(hoje,'%d/%m/%Y %H:%M:%S') # Transforma uma string em formato de data no formato datetime, o primeiro parâmetro é a string em formato de data e o segundo parâmetro é a formatação da string
+print(agora)
+print(type(agora))
 
 print(datetime.now().day) # Retorna apenas o dia atual
 print(datetime.now().month) # Retorna apenas o mês atual
