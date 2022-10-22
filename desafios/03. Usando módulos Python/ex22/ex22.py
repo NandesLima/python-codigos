@@ -1,7 +1,0 @@
-nome = input('Digite seu nome completo: ').strip().capitalize()
-print(nome.upper())
-print(nome.lower())
-print(f'Quantidade de letras no primeiro nome: {nome.find(" ")}')
-total = nome.split()
-nome = ''.join(total)
-print(f'Número de letras do nome: {len(nome)}')
