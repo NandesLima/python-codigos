@@ -1,0 +1,82 @@
+site_name: "Python Masterclass 🐍"
+site_url: "https://nandeslima.github.io/python-codigos"
+site_author: "Ariel Shlomoh"
+site_description: "Domine a linguagem Python: do básico à manipulação avançada de dados e bibliotecas."
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para modo escuro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - navigation.sections
+
+nav:
+  - Início: index.md
+  - Fundamentos:
+      - Variáveis & Constantes: basico/01-variaveis-e-constantes.md
+      - Tipos de Dados: basico/02-tipos-de-dados.md
+      - Escopo & Retorno: basico/03-retorno-do-escopo.md
+      - Manipulação de Texto: basico/04-utilizando-textos.md
+      - Formatação & Estilos: basico/05-formatando-textos.md
+      - Slicing Substrings: basico/06-slicing-substrings.md
+      - Operadores Aritméticos: basico/07-numeros-operadores-aritmeticos.md
+      - Lógica & Booleanos: basico/08-valores-e-operadores-logicos.md
+  - Estruturas de Controle:
+      - Condicionais: estruturas/10-estruturas-condicionais.md
+      - Repetição (Loops): estruturas/11-estrutura-de-repeticao.md
+      - Tuplas: estruturas/12-tuplas.md
+      - Listas: estruturas/13-listas.md
+      - Conjuntos (Sets): estruturas/14-conjuntos.md
+      - Dicionários: estruturas/15-dicionarios.md
+      - Funções: estruturas/16-funcoes.md
+      - Manipulação de Arquivos: estruturas/17-manipulando-arquivos.md
+      - Erros & Exceções: estruturas/18-tratamento-de-erros-e-excecoes.md
+  - Bibliotecas & Módulos:
+      - Random & OS: modulos/01-random-os.md
+      - CSV & JSON: modulos/02-csv-json.md
+      - Datetime & Time: modulos/03-datetime-time.md
+      - Requests & Shutil: modulos/04-requests-shutil.md
+      - Geopy: modulos/05-geopy.md
+      - Pandas: modulos/06-pandas.md
+      - Matplotlib: modulos/07-matplotlib.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NandesLima
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ariel-shlomoh/
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/custom.css
