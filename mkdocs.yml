@@ -32,6 +32,7 @@ theme:
 
 nav:
   - Início: index.md
+  - Sobre o Projeto: sobre.md
   - Fundamentos:
       - Variáveis & Constantes: basico/01-variaveis-e-constantes.md
       - Tipos de Dados: basico/02-tipos-de-dados.md
